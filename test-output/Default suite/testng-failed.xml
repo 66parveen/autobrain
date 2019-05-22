@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="autobrainTests.testCreateAccount">
+        <methods>
+          <include name="testWithconfirmPasswordOnly"/>
+          <include name="testWithoutPassword"/>
+          <include name="testWithoutPhone"/>
+          <include name="testwithLastNameOnly"/>
+          <include name="testWithoutConfirmPassword"/>
+          <include name="testCreateAccountWithoutDetails"/>
+          <include name="testWithFirstNameOnly"/>
+          <include name="testWithoutLname"/>
+          <include name="testWithInvalidEmail"/>
+          <include name="testWithoutFname"/>
+          <include name="testWithDifPassAResetPass"/>
+          <include name="testWithPasswordOnly"/>
+          <include name="tearDown"/>
+          <include name="testWithoutEmail"/>
+          <include name="testWithEmailOnly"/>
+          <include name="testWithAlreadyExistEmail"/>
+          <include name="testWithInvalidPhone"/>
+        </methods>
+      </class> <!-- autobrainTests.testCreateAccount -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

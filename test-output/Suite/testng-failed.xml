@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="testWithValidDetails(failed)">
+    <parameter name="fname" value="Parveen"/>
+    <parameter name="CPass" value="Kabir123"/>
+    <parameter name="lname" value="Singh"/>
+    <parameter name="pass" value="Kabir123"/>
+    <parameter name="InvalidE" value="khkjhgfkgh"/>
+    <parameter name="num" value="9856232315"/>
+    <parameter name="Eemail" value="parveen@ucreate.co.in"/>
+    <parameter name="Invalidnum" value="66552"/>
+    <parameter name="emailT" value="rveen@ucreate.co.in"/>
+    <parameter name="InvalidPass" value="123456"/>
+    <classes>
+      <class name="autobrainTests.testCreateAccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testWithAlreadyExistEmail" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- autobrainTests.testCreateAccount -->
+    </classes>
+  </test> <!-- testWithValidDetails(failed) -->
+</suite> <!-- Failed suite [Suite] -->

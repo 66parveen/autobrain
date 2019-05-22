@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sign up" duration-ms="46933" started-at="2019-05-21T06:41:10Z" finished-at="2019-05-21T06:41:57Z">
+    <groups>
+    </groups>
+    <test name="testWithValidDetails" duration-ms="46933" started-at="2019-05-21T06:41:10Z" finished-at="2019-05-21T06:41:57Z">
+      <class name="autobrainTests.testCreateAccount">
+        <test-method status="PASS" signature="testCreateAccountWithoutDetails()[pri:0, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testCreateAccountWithoutDetails" duration-ms="23541" started-at="2019-05-21T06:41:10Z" finished-at="2019-05-21T06:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAccountWithoutDetails -->
+        <test-method status="PASS" signature="testWithFirstNameOnly(java.lang.String)[pri:1, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithFirstNameOnly" duration-ms="264" started-at="2019-05-21T06:41:34Z" finished-at="2019-05-21T06:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Parveen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithFirstNameOnly -->
+        <test-method status="PASS" signature="testwithLastNameOnly(java.lang.String)[pri:2, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testwithLastNameOnly" duration-ms="301" started-at="2019-05-21T06:41:34Z" finished-at="2019-05-21T06:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithLastNameOnly -->
+        <test-method status="PASS" signature="testWithEmailOnly(java.lang.String)[pri:3, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithEmailOnly" duration-ms="1195" started-at="2019-05-21T06:41:34Z" finished-at="2019-05-21T06:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rveen@ucreate.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithEmailOnly -->
+        <test-method status="PASS" signature="testWithPasswordOnly(java.lang.String)[pri:4, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithPasswordOnly" duration-ms="289" started-at="2019-05-21T06:41:36Z" finished-at="2019-05-21T06:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kabir123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithPasswordOnly -->
+        <test-method status="PASS" signature="testWithconfirmPasswordOnly(java.lang.String)[pri:5, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithconfirmPasswordOnly" duration-ms="241" started-at="2019-05-21T06:41:36Z" finished-at="2019-05-21T06:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kabir123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithconfirmPasswordOnly -->
+        <test-method status="PASS" signature="testWithInvalidEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithInvalidEmail" duration-ms="433" started-at="2019-05-21T06:41:36Z" finished-at="2019-05-21T06:41:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Parveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[khkjhgfkgh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9856232315]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kabir123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInvalidEmail -->
+        <test-method status="PASS" signature="testWithInvalidPhone(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithInvalidPhone" duration-ms="2690" started-at="2019-05-21T06:41:37Z" finished-at="2019-05-21T06:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Parveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rveen@ucreate.co.in]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66552]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kabir123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInvalidPhone -->
+        <test-method status="PASS" signature="testWithDifPassAResetPass(java.lang.String)[pri:8, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithDifPassAResetPass" duration-ms="694" started-at="2019-05-21T06:41:39Z" finished-at="2019-05-21T06:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithDifPassAResetPass -->
+        <test-method status="PASS" signature="testWithoutFname(java.lang.String)[pri:9, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithoutFname" duration-ms="2522" started-at="2019-05-21T06:41:40Z" finished-at="2019-05-21T06:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kabir123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutFname -->
+        <test-method status="PASS" signature="testWithoutLname(java.lang.String)[pri:10, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithoutLname" duration-ms="3340" started-at="2019-05-21T06:41:43Z" finished-at="2019-05-21T06:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Parveen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutLname -->
+        <test-method status="PASS" signature="testWithoutEmail(java.lang.String)[pri:11, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithoutEmail" duration-ms="1737" started-at="2019-05-21T06:41:46Z" finished-at="2019-05-21T06:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutEmail -->
+        <test-method status="PASS" signature="testWithoutPhone(java.lang.String)[pri:12, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithoutPhone" duration-ms="646" started-at="2019-05-21T06:41:48Z" finished-at="2019-05-21T06:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rveen@ucreate.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutPhone -->
+        <test-method status="PASS" signature="testWithoutPassword(java.lang.String)[pri:13, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithoutPassword" duration-ms="3701" started-at="2019-05-21T06:41:48Z" finished-at="2019-05-21T06:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9856232315]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutPassword -->
+        <test-method status="PASS" signature="testWithoutConfirmPassword(java.lang.String)[pri:14, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithoutConfirmPassword" duration-ms="2789" started-at="2019-05-21T06:41:52Z" finished-at="2019-05-21T06:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kabir123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutConfirmPassword -->
+        <test-method status="PASS" signature="testWithAlreadyExistEmail(java.lang.String, java.lang.String)[pri:15, instance:autobrainTests.testCreateAccount@57fffcd7]" name="testWithAlreadyExistEmail" duration-ms="2502" started-at="2019-05-21T06:41:55Z" finished-at="2019-05-21T06:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kabir123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parveen@ucreate.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithAlreadyExistEmail -->
+      </class> <!-- autobrainTests.testCreateAccount -->
+    </test> <!-- testWithValidDetails -->
+  </suite> <!-- Sign up -->
+</testng-results>

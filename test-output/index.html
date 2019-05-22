@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sign_up">
+              <span class="suite-name border-passed">Sign up</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sign_up">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sign_up">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sign_up">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sign_up">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sign_up">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sign_up">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sign_up">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sign_up" class="hide-methods passed suite-Sign_up"> (hide)</a> <!-- hide-methods passed suite-Sign_up -->
+                      <a href="#" panel-name="suite-Sign_up" class="show-methods passed suite-Sign_up"> (show)</a> <!-- show-methods passed suite-Sign_up -->
+                    </span>
+                    <div class="method-list-content passed suite-Sign_up">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testCreateAccountWithoutDetails">testCreateAccountWithoutDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithAlreadyExistEmail(Kabir123, parveen@ucreate.co.in)">testWithAlreadyExistEmail(Kabir123, parveen@ucreate.co.in)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithDifPassAResetPass(123456)">testWithDifPassAResetPass(123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithEmailOnly(rveen@ucreate.co.in)">testWithEmailOnly(rveen@ucreate.co.in)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithFirstNameOnly(Parveen)">testWithFirstNameOnly(Parveen)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithInvalidEmail(Parveen, Singh, khkjhgfkgh, 9856232315, Kabir123)">testWithInvalidEmail(Parveen, Singh, khkjhgfkgh, 9856232315, Kabir123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithInvalidPhone(Parveen, Singh, rveen@ucreate.co.in, 66552, Kabir123)">testWithInvalidPhone(Parveen, Singh, rveen@ucreate.co.in, 66552, Kabir123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithPasswordOnly(Kabir123)">testWithPasswordOnly(Kabir123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithconfirmPasswordOnly(Kabir123)">testWithconfirmPasswordOnly(Kabir123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithoutConfirmPassword(Kabir123)">testWithoutConfirmPassword(Kabir123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithoutEmail(Singh)">testWithoutEmail(Singh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithoutFname(Kabir123)">testWithoutFname(Kabir123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithoutLname(Parveen)">testWithoutLname(Parveen)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithoutPassword(9856232315)">testWithoutPassword(9856232315)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testWithoutPhone(rveen@ucreate.co.in)">testWithoutPhone(rveen@ucreate.co.in)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sign_up" title="autobrainTests.testCreateAccount" hash-for-method="testwithLastNameOnly(Singh)">testwithLastNameOnly(Singh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sign_up -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sign_up" class="panel Sign_up">
+          <div class="suite-Sign_up-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autobrainTests.testCreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAccountWithoutDetails">
+                  </a> <!-- testCreateAccountWithoutDetails -->
+                  <span class="method-name">testCreateAccountWithoutDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithAlreadyExistEmail(Kabir123, parveen@ucreate.co.in)">
+                  </a> <!-- testWithAlreadyExistEmail(Kabir123, parveen@ucreate.co.in) -->
+                  <span class="method-name">testWithAlreadyExistEmail</span>
+                  <span class="parameters">(Kabir123, parveen@ucreate.co.in)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithDifPassAResetPass(123456)">
+                  </a> <!-- testWithDifPassAResetPass(123456) -->
+                  <span class="method-name">testWithDifPassAResetPass</span>
+                  <span class="parameters">(123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithEmailOnly(rveen@ucreate.co.in)">
+                  </a> <!-- testWithEmailOnly(rveen@ucreate.co.in) -->
+                  <span class="method-name">testWithEmailOnly</span>
+                  <span class="parameters">(rveen@ucreate.co.in)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithFirstNameOnly(Parveen)">
+                  </a> <!-- testWithFirstNameOnly(Parveen) -->
+                  <span class="method-name">testWithFirstNameOnly</span>
+                  <span class="parameters">(Parveen)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidEmail(Parveen, Singh, khkjhgfkgh, 9856232315, Kabir123)">
+                  </a> <!-- testWithInvalidEmail(Parveen, Singh, khkjhgfkgh, 9856232315, Kabir123) -->
+                  <span class="method-name">testWithInvalidEmail</span>
+                  <span class="parameters">(Parveen, Singh, khkjhgfkgh, 9856232315, Kabir123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidPhone(Parveen, Singh, rveen@ucreate.co.in, 66552, Kabir123)">
+                  </a> <!-- testWithInvalidPhone(Parveen, Singh, rveen@ucreate.co.in, 66552, Kabir123) -->
+                  <span class="method-name">testWithInvalidPhone</span>
+                  <span class="parameters">(Parveen, Singh, rveen@ucreate.co.in, 66552, Kabir123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithPasswordOnly(Kabir123)">
+                  </a> <!-- testWithPasswordOnly(Kabir123) -->
+                  <span class="method-name">testWithPasswordOnly</span>
+                  <span class="parameters">(Kabir123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithconfirmPasswordOnly(Kabir123)">
+                  </a> <!-- testWithconfirmPasswordOnly(Kabir123) -->
+                  <span class="method-name">testWithconfirmPasswordOnly</span>
+                  <span class="parameters">(Kabir123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithoutConfirmPassword(Kabir123)">
+                  </a> <!-- testWithoutConfirmPassword(Kabir123) -->
+                  <span class="method-name">testWithoutConfirmPassword</span>
+                  <span class="parameters">(Kabir123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithoutEmail(Singh)">
+                  </a> <!-- testWithoutEmail(Singh) -->
+                  <span class="method-name">testWithoutEmail</span>
+                  <span class="parameters">(Singh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithoutFname(Kabir123)">
+                  </a> <!-- testWithoutFname(Kabir123) -->
+                  <span class="method-name">testWithoutFname</span>
+                  <span class="parameters">(Kabir123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithoutLname(Parveen)">
+                  </a> <!-- testWithoutLname(Parveen) -->
+                  <span class="method-name">testWithoutLname</span>
+                  <span class="parameters">(Parveen)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithoutPassword(9856232315)">
+                  </a> <!-- testWithoutPassword(9856232315) -->
+                  <span class="method-name">testWithoutPassword</span>
+                  <span class="parameters">(9856232315)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithoutPhone(rveen@ucreate.co.in)">
+                  </a> <!-- testWithoutPhone(rveen@ucreate.co.in) -->
+                  <span class="method-name">testWithoutPhone</span>
+                  <span class="parameters">(rveen@ucreate.co.in)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwithLastNameOnly(Singh)">
+                  </a> <!-- testwithLastNameOnly(Singh) -->
+                  <span class="method-name">testwithLastNameOnly</span>
+                  <span class="parameters">(Singh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sign_up-class-passed -->
+        </div> <!-- panel Sign_up -->
+        <div panel-name="test-xml-Sign_up" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/ucreate-8/Public/autobrain/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Sign up&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Resources.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testWithValidDetails&quot;&gt;
+    &lt;parameter name=&quot;fname&quot; value=&quot;Parveen&quot;/&gt;
+    &lt;parameter name=&quot;CPass&quot; value=&quot;Kabir123&quot;/&gt;
+    &lt;parameter name=&quot;lname&quot; value=&quot;Singh&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Kabir123&quot;/&gt;
+    &lt;parameter name=&quot;InvalidE&quot; value=&quot;khkjhgfkgh&quot;/&gt;
+    &lt;parameter name=&quot;num&quot; value=&quot;9856232315&quot;/&gt;
+    &lt;parameter name=&quot;Eemail&quot; value=&quot;parveen@ucreate.co.in&quot;/&gt;
+    &lt;parameter name=&quot;Invalidnum&quot; value=&quot;66552&quot;/&gt;
+    &lt;parameter name=&quot;emailT&quot; value=&quot;rveen@ucreate.co.in&quot;/&gt;
+    &lt;parameter name=&quot;InvalidPass&quot; value=&quot;123456&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;autobrainTests.testCreateAccount&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testWithValidDetails --&gt;
+&lt;/suite&gt; &lt;!-- Sign up --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sign_up" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sign up</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testWithValidDetails (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sign_up" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sign up</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sign_up" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sign up</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sign_up');
+function tableData_Sign_up() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreateAccountWithoutDetails')
+data.setCell(0, 2, 'autobrainTests.testCreateAccount')
+data.setCell(0, 3, 23541);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testWithoutPassword')
+data.setCell(1, 2, 'autobrainTests.testCreateAccount')
+data.setCell(1, 3, 3701);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testWithoutLname')
+data.setCell(2, 2, 'autobrainTests.testCreateAccount')
+data.setCell(2, 3, 3340);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testWithoutConfirmPassword')
+data.setCell(3, 2, 'autobrainTests.testCreateAccount')
+data.setCell(3, 3, 2789);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testWithInvalidPhone')
+data.setCell(4, 2, 'autobrainTests.testCreateAccount')
+data.setCell(4, 3, 2690);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testWithoutFname')
+data.setCell(5, 2, 'autobrainTests.testCreateAccount')
+data.setCell(5, 3, 2522);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testWithAlreadyExistEmail')
+data.setCell(6, 2, 'autobrainTests.testCreateAccount')
+data.setCell(6, 3, 2502);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testWithoutEmail')
+data.setCell(7, 2, 'autobrainTests.testCreateAccount')
+data.setCell(7, 3, 1737);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testWithEmailOnly')
+data.setCell(8, 2, 'autobrainTests.testCreateAccount')
+data.setCell(8, 3, 1195);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testWithDifPassAResetPass')
+data.setCell(9, 2, 'autobrainTests.testCreateAccount')
+data.setCell(9, 3, 694);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testWithoutPhone')
+data.setCell(10, 2, 'autobrainTests.testCreateAccount')
+data.setCell(10, 3, 646);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testWithInvalidEmail')
+data.setCell(11, 2, 'autobrainTests.testCreateAccount')
+data.setCell(11, 3, 433);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testwithLastNameOnly')
+data.setCell(12, 2, 'autobrainTests.testCreateAccount')
+data.setCell(12, 3, 301);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testWithPasswordOnly')
+data.setCell(13, 2, 'autobrainTests.testCreateAccount')
+data.setCell(13, 3, 289);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testWithFirstNameOnly')
+data.setCell(14, 2, 'autobrainTests.testCreateAccount')
+data.setCell(14, 3, 264);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testWithconfirmPasswordOnly')
+data.setCell(15, 2, 'autobrainTests.testCreateAccount')
+data.setCell(15, 3, 241);
+window.suiteTableData['Sign_up']= { tableData: data, tableDiv: 'times-div-Sign_up'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Sign_up">
+              </div> <!-- times-div-Sign_up -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sign_up" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sign up</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sign_up" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sign_up" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">autobrainTests.testCreateAccount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateAccountWithoutDetails</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithFirstNameOnly(Parveen)</span>
+                <span class="method-start">23544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testwithLastNameOnly(Singh)</span>
+                <span class="method-start">23809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithEmailOnly(rveen@ucreate.co.in)</span>
+                <span class="method-start">24111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithPasswordOnly(Kabir123)</span>
+                <span class="method-start">25309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithconfirmPasswordOnly(Kabir123)</span>
+                <span class="method-start">25599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidEmail(Parveen, Singh, khkjhgfkgh, 9856232315, Kabir123)</span>
+                <span class="method-start">25842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidPhone(Parveen, Singh, rveen@ucreate.co.in, 66552, Kabir123)</span>
+                <span class="method-start">26276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithDifPassAResetPass(123456)</span>
+                <span class="method-start">28967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithoutFname(Kabir123)</span>
+                <span class="method-start">29662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithoutLname(Parveen)</span>
+                <span class="method-start">32185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithoutEmail(Singh)</span>
+                <span class="method-start">35526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithoutPhone(rveen@ucreate.co.in)</span>
+                <span class="method-start">37264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithoutPassword(9856232315)</span>
+                <span class="method-start">37911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithoutConfirmPassword(Kabir123)</span>
+                <span class="method-start">41613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithAlreadyExistEmail(Kabir123, parveen@ucreate.co.in)</span>
+                <span class="method-start">44403 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

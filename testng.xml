@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sign up">
+
+<listeners>
+
+<listener class-name="Resources.ExtentReporterNG"/>
+
+</listeners>
+
+  <test name="testWithValidDetails">
+ 
+  <parameter name="fname" value="Parveen"/>
+  <parameter name="lname" value="Singh"/>
+  <parameter name="emailT" value="rveen@ucreate.co.in"/>
+  <parameter name="num" value="9856232315"/>
+  <parameter name="pass" value="Kabir123"/>
+  <parameter name="CPass" value="Kabir123"/>
+  <parameter name="InvalidE" value="khkjhgfkgh"/>
+  <parameter name="Invalidnum" value="66552"/>
+  <parameter name="InvalidPass" value="123456"/>
+  <parameter name="Eemail" value="parveen@ucreate.co.in"/>
+  
+    <classes>
+    
+     <class name="autobrainTests.testCreateAccount"></class>
+     
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
